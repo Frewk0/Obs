@@ -1,0 +1,228 @@
+{
+  "main": {
+    "id": "185cb0f0ce080802",
+    "type": "split",
+    "children": [
+      {
+        "id": "3710da7f95c02d8a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "12e1c7ea279b83fe",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linux_base/Commands/Network.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Network"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d4fea6b8da21fd85",
+    "type": "split",
+    "children": [
+      {
+        "id": "b88af2cc3510df79",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7a45fa46a0e8cc82",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Файловий менеджер"
+            }
+          },
+          {
+            "id": "2d6ecd737de6f4a6",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Пошук"
+            }
+          },
+          {
+            "id": "8d7947234f0b537c",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Закладки"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "dd08d9ce5f1e2694",
+    "type": "split",
+    "children": [
+      {
+        "id": "d6c62dfa5c64dd9d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "916af14c215c18ea",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Вітаємо.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Зворотні посилання для Вітаємо"
+            }
+          },
+          {
+            "id": "bb67d89b8f0bd9f7",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Вітаємо.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Вихідні посилання з Вітаємо"
+            }
+          },
+          {
+            "id": "2e8aa84189171506",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Мітки"
+            }
+          },
+          {
+            "id": "3f6a7ffa6383d98c",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "Всі властивості"
+            }
+          },
+          {
+            "id": "fbb172c9e27f6bb9",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Вітаємо.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Вміст Вітаємо"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "bases:Створити нову базу": false,
+      "switcher:Відкрити провідник файлів": false,
+      "graph:Граф": false,
+      "canvas:Створити нове полотно": false,
+      "daily-notes:Сьогоднішня нотатка": false,
+      "templates:Вставити шаблон": false,
+      "command-palette:Відкрити меню команд": false
+    }
+  },
+  "active": "12e1c7ea279b83fe",
+  "lastOpenFiles": [
+    "Linux_base/Commands/Procces.md",
+    "Linux_base/Commands/Base commands.md",
+    "Docker/Docker.6 Compose.md",
+    "Docker/Docker.5 Network.md",
+    "Docker/Docker.7 Security.md",
+    "Docker/Docker.4 Storage.md",
+    "Docker/Docker.3 Imag,Dockerfile.md",
+    "Docker/Docker.2 Base flag.md",
+    "Docker/Docker.8 Final.md",
+    "Linux_base/Commands/User.md",
+    "Linux_base/Commands/Network.md",
+    "Linux_base/systemd та systemctl.md",
+    "Прогалини.md",
+    "Docker/Docker.1 Fundament.md",
+    "Docker",
+    "Bash-скриптинг/База.md",
+    "Bash-скриптинг/Цикли.md",
+    "Bash-скриптинг/if-else, перевірка.md",
+    "Linux_base/Commands/Змінні середовища.md",
+    "Python/requests.md",
+    "Linux_base/Commands/диск.md",
+    "Python/Argparse.md",
+    "Linux_base/БАЗА/OOM Killer.md",
+    "Linux_base/БАЗА/hardlink and simplelink.md",
+    "Linux_base/БАЗА/Облікові записи.md",
+    "Linux_base/БАЗА/Ієархія.md",
+    "Linux_base/БАЗА/Загрузка.md",
+    "Без назви 1.base",
+    "Без назви.base",
+    "Git/SSH.canvas",
+    "Python",
+    "Git",
+    "Bash-скриптинг",
+    "linux_gemini",
+    "Linux_base/Commands",
+    "Без назви 2.base",
+    "Linux_base/Comands1"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+	"nodes":[
+		{"id":"099913a92271e257","type":"text","text":"SSH","x":-160,"y":-180,"width":76,"height":58},
+		{"id":"c2196261ff5c1a03","type":"text","text":"призначений для безпечного віддаленого доступу **до систем UNIX**","x":-234,"y":-38,"width":314,"height":98,"color":"3"},
+		{"id":"45521dd60d168ba8","type":"text","text":"Unix – це сімейство операційних систем","x":180,"y":-19,"width":250,"height":60,"color":"3"},
+		{"id":"88c8bb40641fdecb","type":"text","text":"Команда SSH складається з 3 окремих частин:\n\n```\nssh {user}@{host}\n```","x":-222,"y":150,"width":302,"height":150,"color":"3"},
+		{"id":"7e6e21e4f8370574","type":"text","text":"**{user}** - обліковий запис,  \n**{host}** - комп'ютер, до якого ви хочете підключитися.","x":205,"y":200,"width":335,"height":100,"color":"3"},
+		{"id":"c2d193e479c5d638","type":"text","text":"## Основні команди SSH:\nls, pwd, cd, mkdir, touch, rm, cat, cp, mv, grep, find, history, clean","x":-720,"y":-193,"width":352,"height":143,"color":"2"},
+		{"id":"c98abc16d0afc45e","type":"text","text":"Перевага - використування шифрування для захисту передачі даних між хостом і клієнтом.","x":-554,"y":-440,"width":394,"height":100,"color":"1"},
+		{"id":"999d862785513779","type":"text","text":"**Хост -** це віддалений сервер, до **якого** ви хочете отримати доступ, а **клієнт** - це комп'ютер, з якого ви намагаєтеся отримати доступ до хоста.","x":-596,"y":-660,"width":496,"height":100,"color":"1"},
+		{"id":"8f2b64c06b1d095d","type":"text","text":"Недолік - немає як такого захисту якщо зловмисник отримав кореневий доступ","x":-100,"y":-440,"width":370,"height":100,"color":"1"},
+		{"id":"dc29cf16b17a2e65","type":"text","text":"Шифрування - хешинг, симетричне та асиметричне шифрування","x":98,"y":-260,"width":302,"height":129,"color":"5"}
+	],
+	"edges":[
+		{"id":"29b587e079a21418","fromNode":"099913a92271e257","fromSide":"bottom","toNode":"c2196261ff5c1a03","toSide":"top","color":"3"},
+		{"id":"d7081895414de352","fromNode":"c2196261ff5c1a03","fromSide":"right","toNode":"45521dd60d168ba8","toSide":"left","color":"3"},
+		{"id":"018f403fb666c076","fromNode":"c2196261ff5c1a03","fromSide":"bottom","toNode":"88c8bb40641fdecb","toSide":"top","color":"3"},
+		{"id":"3ce124f3d0efa8f0","fromNode":"88c8bb40641fdecb","fromSide":"right","toNode":"7e6e21e4f8370574","toSide":"left","color":"3"},
+		{"id":"2fd43fdc8fac4c80","fromNode":"099913a92271e257","fromSide":"left","toNode":"c2d193e479c5d638","toSide":"right","color":"2"},
+		{"id":"845c3230703d1cfb","fromNode":"099913a92271e257","fromSide":"top","toNode":"c98abc16d0afc45e","toSide":"bottom","color":"1"},
+		{"id":"3ac61ea76e22188b","fromNode":"c98abc16d0afc45e","fromSide":"top","toNode":"999d862785513779","toSide":"bottom","color":"1"},
+		{"id":"06332a478e2be04b","fromNode":"099913a92271e257","fromSide":"top","toNode":"8f2b64c06b1d095d","toSide":"bottom","color":"1"},
+		{"id":"0dd55b7d9921d3ef","fromNode":"099913a92271e257","fromSide":"right","toNode":"dc29cf16b17a2e65","toSide":"left","color":"5"}
+	]
+}
